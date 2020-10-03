@@ -15,7 +15,7 @@ Open vSwitch 2.3.1
 Ryu Controller 3.12  
 Mininet 2.2.1  
 
-# Command
+# Commands
 When you installed environment, you can run the cmd to experiment.
   
 on ryu controller:  
