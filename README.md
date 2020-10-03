@@ -13,3 +13,17 @@ Ubuntu 14.04
 OpenFlow v1.3  
 Open vSwitch 2.3.1  
 Ryu Controller 3.12  
+Mininet 2.2.1  
+
+# Command
+When you installed environment, you can run the cmd to experiment.
+  
+on ryu controller:  
+```
+sudo ryu-manager --observe-link multipath_controller_link_monitor.py
+```
+  
+on mininet:  
+```
+sudo mn --custom multipath_topo.py --topo mytopo --controller=remote
+```
