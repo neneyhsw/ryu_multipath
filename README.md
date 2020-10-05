@@ -15,6 +15,21 @@ Open vSwitch 2.3.1
 Ryu Controller 3.12  
 Mininet 2.2.1  
 
+# install ryu controller
+Quickly Install  
+```
+pip install ryu
+```
+
+installing from source code  
+```
+git clone git://github.com/osrg/ryu.git
+cd ryu; python ./setup.py install
+```
+
+
+Reference: https://ryu-sdn.org/
+
 # Commands
 When you installed environment, you can run the cmd to experiment.
   
