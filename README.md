@@ -5,20 +5,22 @@ This repository using ryu controller implement multipath transminssion in SDN.
 For implement multipath transmission, we need to modify Open vSwitch(OvS) and remake it.  
 The Changing includes select function in group table.  
 Setting buckets transmission method to implement multipath transmission.  
-  
-  
-You can use network monitoring tools(NetFlow, sFlow......) or LLDP Packet to monitor network performance.
 
 Reference: https://github.com/saeenali/openvswitch/wiki/Stochastic-Switching-using-Open-vSwitch-in-Mininet
 
-# Environments
+#### Monitor Networks
+
+You can use network monitoring tools(NetFlow, sFlow......) or LLDP Packet to monitor network performance.
+
+
+## Environments
 Ubuntu 14.04  
 OpenFlow v1.3  
 Open vSwitch 2.3.1  
 Ryu Controller 3.12  
 Mininet 2.2.1  
 
-# install ryu controller
+## install ryu controller
 Quickly Install  
 ```
 pip install ryu
@@ -33,7 +35,7 @@ cd ryu; python ./setup.py install
 
 Reference: https://ryu-sdn.org/
 
-# Commands
+## Commands
 When you installed environment, you can run the cmd to experiment.
   
 on ryu controller:  
