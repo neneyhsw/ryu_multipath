@@ -1,0 +1,10 @@
+[{
+ "agent": "127.0.0.1",
+ "metricName": "33.ifinutilization",
+ "metricN": 1,
+ "lastUpdate": 2157,
+ "lastUpdateMax": 2157,
+ "metricValue": 3.36E-6,
+ "dataSource": "33",
+ "lastUpdateMin": 2157
+}]
