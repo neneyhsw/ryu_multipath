@@ -18,13 +18,13 @@ Open vSwitch 2.3.1
 Ryu Controller 3.12  
 Mininet 2.2.1 
 
-### Monitor Networks
+## Monitor Networks
 This repository use sFlow to monitor network performance.  
 Using curl cmd to catch the parameter for multipath weights.  
 You can use network monitoring tools(NetFlow, sFlow......) or LLDP Packet to monitor network performance.  
 
 
-## install ryu controller
+## install Ryu Controller
 Quickly Install  
 ```
 pip install ryu
@@ -36,8 +36,12 @@ git clone git://github.com/osrg/ryu.git
 cd ryu; python ./setup.py install
 ```
 
+Reference: https://ryu-sdn.org/  
 
-Reference: https://ryu-sdn.org/
+
+## install Open vSwitch
+
+## install Mininet
 
 ## Commands
 When you installed environment, you can run the cmd to experiment.
