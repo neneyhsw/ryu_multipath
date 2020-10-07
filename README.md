@@ -40,10 +40,10 @@ When you installed environment, you can run the cmd to experiment.
   
 on ryu controller:  
 ```
-sudo ryu-manager --observe-link multipath_controller_link_monitor.py
+sudo ryu-manager --observe-link multipath_controller_4_link_monitor.py
 ```
   
 on mininet:  
 ```
-sudo mn --custom multipath_topo.py --topo mytopo --controller=remote
+sudo mn --custom multipath__topo.py --topo mytopo --controller=remote
 ```
