@@ -8,17 +8,21 @@ Setting buckets transmission method to implement multipath transmission.
 
 Reference: https://github.com/saeenali/openvswitch/wiki/Stochastic-Switching-using-Open-vSwitch-in-Mininet
 
-### Monitor Networks
-
-You can use network monitoring tools(NetFlow, sFlow......) or LLDP Packet to monitor network performance.
-
+This repository provide ryu controller file and mininet topo file to implement multipath transmission in SDN.  
+Before you try this repository, you need to install the environments. (ryu, mininet, openvswitch)  
 
 ## Environments
 Ubuntu 14.04  
 OpenFlow v1.3  
 Open vSwitch 2.3.1  
 Ryu Controller 3.12  
-Mininet 2.2.1  
+Mininet 2.2.1 
+
+### Monitor Networks
+This repository use sFlow to monitor network performance.  
+Using curl cmd to catch the parameter for multipath weights.  
+You can use network monitoring tools(NetFlow, sFlow......) or LLDP Packet to monitor network performance.  
+
 
 ## install ryu controller
 Quickly Install  
