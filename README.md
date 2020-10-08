@@ -23,6 +23,13 @@ This repository use sFlow to monitor network performance.
 Using curl cmd to catch the parameter for multipath weights.  
 You can use network monitoring tools(NetFlow, sFlow......) or LLDP Packet to monitor network performance.  
 
+The topology has six switch.  
+
+          --- s2 ---  
+ h2 --    --- s3 ---  
+ h1 -- s1 --- s4 --- s6 -- h3
+          --- s5 ---  
+   
 
 ## install Ryu Controller
 Quickly Install  
