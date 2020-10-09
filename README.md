@@ -55,8 +55,23 @@ Reference: https://ryu-sdn.org/
 
 
 ## install Open vSwitch
+Reference: https://github.com/saeenali/openvswitch/wiki/Stochastic-Switching-using-Open-vSwitch-in-Mininet
 
 ## install Mininet
+```
+git clone git://github.com/mininet/mininet
+```
+
+```
+cd mininet/util
+git tag
+git checkout -b 2.2.1 2.2.1
+./install.sh -3nV 2.3.1
+```
+
+cmd "./install.sh -h" shows function of parameters.  
+this can customize the installation.  
+
 
 ## Commands
 When you installed environment, you can run the cmd to experiment.
