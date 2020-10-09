@@ -25,10 +25,10 @@ You can use network monitoring tools(NetFlow, sFlow......) or LLDP Packet to mon
 
 The topology has six switch.  
 
-####          --- s2 ---  
-#### h2 --    --- s3 ---  
-#### h1 -- s1 --- s4 --- s6 -- h3  
-####          --- s5 ---  
+　　　　　　　--- s2 ---  
+h2　---　　　--- s3 ---  
+h1　---　s1　--- s4 ---　s6　---　h3  
+　　　　　　　--- s5 ---  
    
 
 ## install Ryu Controller
