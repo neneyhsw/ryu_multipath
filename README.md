@@ -62,5 +62,5 @@ sudo ryu-manager --observe-link multipath_controller_4_link_monitor.py
   
 on mininet:  
 ```
-sudo mn --custom multipath__topo.py --topo mytopo --controller=remote
+sudo mn --custom multipath_4_link_topo.py --topo mytopo --controller=remote
 ```
