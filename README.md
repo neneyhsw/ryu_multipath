@@ -19,7 +19,7 @@ mininet shows:
 
 Ryu Controller shows:
 
-<img src=https://github.com/neneyhsw/ryu_multipath/blob/master/ryu_controller.png width="600" height="350">
+<img src=https://github.com/neneyhsw/ryu_multipath/blob/master/ryu_controller.png width="600" height="300">
 
 
 ## Environments
