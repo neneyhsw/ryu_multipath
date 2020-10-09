@@ -15,7 +15,7 @@ When you run this repository,
 
 mininet shows:
 
-<img src= width="400" height="300">
+<img src=https://github.com/neneyhsw/ryu_multipath/blob/master/mininet.png width="400" height="300">
 
 ## Environments
 Ubuntu 14.04  
