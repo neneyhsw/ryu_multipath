@@ -17,6 +17,11 @@ mininet shows:
 
 <img src=https://github.com/neneyhsw/ryu_multipath/blob/master/mininet.png width="600" height="350">
 
+Ryu Controller shows:
+
+<img src=https://github.com/neneyhsw/ryu_multipath/blob/master/ryu_controller.png width="600" height="350">
+
+
 ## Environments
 Ubuntu 14.04  
 OpenFlow v1.3  
@@ -32,6 +37,7 @@ You can use network monitoring tools(NetFlow, sFlow......) or LLDP Packet to mon
 The topology shows:  
 
 <img src=https://github.com/neneyhsw/ryu_multipath/blob/master/topology.jpg width="600" height="350">
+
 
 ## install Ryu Controller
 Quickly Install  
