@@ -55,7 +55,16 @@ Reference: https://ryu-sdn.org/
 
 
 ## install Open vSwitch
-Reference: https://github.com/saeenali/openvswitch/wiki/Stochastic-Switching-using-Open-vSwitch-in-Mininet
+
+1. choose the ovs version from here:  
+Reference: http://www.openvswitch.org//download/  
+
+2. modify group table transmission rule:  
+Reference: https://github.com/saeenali/openvswitch/wiki/Stochastic-Switching-using-Open-vSwitch-in-Mininet  
+
+3. make it.  
+
+After finishing, you can use ovs.
 
 ## install Mininet
 ```
