@@ -11,6 +11,12 @@ Reference: https://github.com/saeenali/openvswitch/wiki/Stochastic-Switching-usi
 This repository provide ryu controller file and mininet topo file to implement multipath transmission in SDN.  
 Before you try this repository, you need to install the environments. (ryu, mininet, openvswitch)  
 
+When you run this repository,
+
+mininet shows:
+
+<img src= width="400" height="300">
+
 ## Environments
 Ubuntu 14.04  
 OpenFlow v1.3  
