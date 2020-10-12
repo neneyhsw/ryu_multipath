@@ -8,10 +8,9 @@ Setting buckets transmission method to implement multipath transmission.
 
 Reference: https://github.com/saeenali/openvswitch/wiki/Stochastic-Switching-using-Open-vSwitch-in-Mininet
 
-This repository provide ryu controller file and mininet topo file to implement multipath transmission in SDN.  
+This repository provide ryu controller file and mininet topology to implement multipath transmission in SDN.  
 Before you try this repository, you need to install the environments. (ryu, mininet, openvswitch)  
 
-When you run this repository,
 
 mininet shows:
 
