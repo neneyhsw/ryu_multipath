@@ -71,9 +71,10 @@ git clone git://github.com/mininet/mininet
 ```
 
 ```
-cd mininet/util
+cd mininet
 git tag
 git checkout -b 2.2.1 2.2.1
+cd util
 ./install.sh -3nV 2.3.1
 ```
 
