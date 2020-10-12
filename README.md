@@ -81,6 +81,9 @@ cd util
 cmd "./install.sh -h" shows function of parameters.  
 this can customize the installation.  
 
+2.2.1 is Mininet version.  
+2.3.1 is Open vSwitch version.  
+
 
 ## Commands
 When you installed environment, you can run the cmd to experiment.
