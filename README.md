@@ -86,7 +86,7 @@ this can customize the installation.
 
 
 ## Commands
-When you installed environment, you can run the cmd to experiment.
+When you installed environment, you can run the cmd to experiment.  
   
 on ryu controller:  
 ```
