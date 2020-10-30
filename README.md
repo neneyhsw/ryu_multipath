@@ -61,9 +61,9 @@ Reference: http://www.openvswitch.org//download/
 2. modify group table transmission rule:  
 Reference: https://github.com/saeenali/openvswitch/wiki/Stochastic-Switching-using-Open-vSwitch-in-Mininet  
 
-3. make it.  
+3. build and install.  
 
-After finishing, you can use ovs.
+After finishing, you can use multipath transmisstion on ovs.
 
 ## install Mininet
 ```
