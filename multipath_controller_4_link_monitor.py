@@ -175,6 +175,7 @@ class My_Multipath_13(app_manager.RyuApp):
             # set path 1 available bandwidth is 100M,
             # path 2 is 60M, path 3 is 50M
 
+            # check which switch is failed
             if self.error_switch_number == 2:
                 BF1[0]["metricValue"] = 0.4
                 WL1 = (1/1) / ((1/1)+(1/0.05)+(1/0.1)+(1/0.1))
