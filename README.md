@@ -11,6 +11,9 @@ Reference: https://github.com/saeenali/openvswitch/wiki/Stochastic-Switching-usi
 This repository provide ryu controller file and mininet topology to implement multipath transmission in SDN.  
 Before you try this repository, you need to install the environments. (ryu, mininet, openvswitch)  
 
+This repository will update transmission weights every 30 seconds.  
+If link is interrupted, the transmission rule will revise real time.  
+
 
 mininet shows:
 
@@ -81,8 +84,8 @@ cd util
 cmd "./install.sh -h" shows function of parameters.  
 this can customize the installation.  
 
-2.2.1 is Mininet version.  
-2.3.1 is Open vSwitch version.  
+Mininet's version is 2.2.1.  
+Open vSwitch's version is 2.3.1.  
 
 
 ## Commands
