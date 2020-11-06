@@ -211,8 +211,7 @@ class My_Multipath_13(app_manager.RyuApp):
                 WL3 = (1/0.1) / ((1/0.1)+(1/0.15)+(1/0.1)+(1/0.15))
                 WL4 = (1/1) / ((1/0.1)+(1/0.15)+(1/0.1)+(1/1))
 
-
-
+            # if link is down
             if self.error_link == True:
                 BF1[0]["metricValue"] = 0.4
                 WL1 = (1/1) / ((1/1)+(1/0.05)+(1/0.1)+(1/0.1))
@@ -260,7 +259,7 @@ class My_Multipath_13(app_manager.RyuApp):
         W3 = WB3*0.7 + WL3*0.2 + WD3*0.1
         W4 = WB4*0.7 + WL4*0.2 + WD4*0.1
 
-
+        # modify the final link weights
         if self.error_switch_number == 2:
             W1 = 0
             W2 = (int)(W2*100)
@@ -330,11 +329,13 @@ class My_Multipath_13(app_manager.RyuApp):
 
         group_id = 50
 
+        # group table add rule at first
         if self.FLAGS == True:
             req = ofp_parser.OFPGroupMod(datapath, ofproto.OFPFC_ADD,
                                          ofproto.OFPGT_SELECT, group_id,
                                          buckets)
             self.logger.info("ADD_group_mod")
+        # after adding rule, group table modify rule
         else:
             req = ofp_parser.OFPGroupMod(datapath, ofproto.OFPFC_MODIFY,
                                          ofproto.OFPGT_SELECT, group_id,
@@ -344,6 +345,7 @@ class My_Multipath_13(app_manager.RyuApp):
         datapath.send_msg(req)
         print "weight_1:", weight_1, " weight_2:", weight_2, " weight_3:", weight_3, " weight_4:", weight_4;
 
+    # aware switches originally
     @set_ev_cls(ofp_event.EventOFPSwitchFeatures, CONFIG_DISPATCHER)
     def switch_features_handler(self, ev):
         datapath = ev.msg.datapath
