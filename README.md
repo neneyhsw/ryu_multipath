@@ -12,8 +12,7 @@ This repository provide ryu controller file and mininet topology to implement mu
 Before you try this repository, you need to install the environments. (ryu, mininet, openvswitch)  
 
 This repository will update transmission weights every 30 seconds.  
-If link is interrupted, the transmission rule will be revised real time.  
-If switch is shutdown, the transmisstion rule will be revised.  
+If link is interrupted or switch is down, the transmission rule will be revised real time.  
 
 
 mininet shows:
