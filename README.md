@@ -29,11 +29,12 @@ Ubuntu 14.04
 OpenFlow v1.3  
 Open vSwitch 2.3.1  
 Ryu Controller 3.12  
-Mininet 2.2.1 
+Mininet 2.2.1  
 
 ## Monitor Networks
 This repository use sFlow to monitor network performance.  
 Using curl cmd to catch the parameter for multipath weights.  
+curl can catch network paramaters by sFlow.  
 You can use network monitoring tools(NetFlow, sFlow......) or LLDP Packet to monitor network performance.  
 
 The topology shows:  
